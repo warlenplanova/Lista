@@ -1,0 +1,21 @@
+*{
+    border: 12;
+    background-color: rgb(7, 7, 92);
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+    width: 89%;
+    display: flex;
+    border-radius: 12vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#btn_{
+    
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 89%;
+}

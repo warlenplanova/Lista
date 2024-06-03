@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Lista de Aparelhos</title>
+</head>
+<body>
+    <header>
+        <h1>Lista de Aparelhos</h1>
+    </header>
+
+    <div class="form">
+        <div class="form-list">
+            <div class="form-list--f">
+                <form action="https://api.sheetmonkey.io/form/pHowCQarEhPmQyt5BwrBGq" method="post">
+                    <label>Nome: <input type="text" name="Name" required placeholder="Seu nome completo" /></label>
+                    <label>Email: <input type="email" name="Email" required placeholder="Seu email corporativo" /></label>
+                    
+                    <div class="cell">
+                        <h1>Celular</h1>
+                        <label>Nome: <input type="text" name="Name-cell" required placeholder="Nome do seu celular" /></label>
+                        <label>Patrimonio: <input type="number" name="Patrimonio-cell" required placeholder="Patrimonio do seu celular" /></label>
+                        <label>Pulsus: <input type="number" name="pulsus" required placeholder="Numero do Pulsus!" /></label>
+                        <label>Numero da linha:<input type="tel" name="numero-da-linha" placeholder="(31) 9923-1231"></label>
+                    </div>
+
+
+                     <div class="not">
+                        <h1>Notebook</h1>
+                        <label>Nome: <input type="text" name="Name-not" required placeholder="Nome do seu notebook" /></label>
+                        <label>Modelo: <input type="text" name="Modelo-not" required placeholder="Modelo do notebook" /></label>
+                        <label>Patrimônio: <input type="number" name="patrimonio-not" required placeholder="Patrimônio do notebook" /></label>
+                     </div> 
+
+                     <div class="btn">
+                        <div id="btn_">
+                            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                            <input id="button" type="submit" value="Enviar" />
+                        </div>
+                     </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
